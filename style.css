@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.menu-container {
+    color: #025012;
+    background-color: #3a3b39;
+    background-image: url(images/neural.jpg);
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    z-index: 1000;
+}
+
+.background-container {
+    background-image: url(images/universe.jpg);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+    height: 100vh;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+img {
+    height: auto;
+}
+
+.menu {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 10px;
+}
+
+.links {
+    display: flex;
+    gap: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.container-home {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 20%;
+
+}
+
+.facts-page {
+    padding-top: 10%;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+    justify-content: flex-end;
+   
+}
+
+.facts-page section {
+    justify-content: flex-end;
+    height: auto;
+    
+}
+
+.img-div {
+    display: flex;
+left: 20px;
+}
+
+.img-div img {
+    height: auto;
+    position: absolute;
+    max-width: 100%;
+
+}
+
+section {
+    background-color: #b479a3;
+    width: 30%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.content {
+    width: auto;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+}
+
+
+details {
+
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
+
+html {
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    color: #555;
+}
+summary {
+
+    color: #333;
+    font-size: 18px;
+}
+
+
+details p {
+    margin: 10px 0 0 20px;
+    font-size: 14px;
+
+    line-height: 1.6;
+}
+
+
+.image-details img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 15px;
+    display: block; 
+}
+
+.legal-content{
+    display:flex;
+    flex-direction: column;
+    color: rgb(201, 192, 198);
+    align-items: center;
+    width: 78%;
+    margin: 0 auto;
+    background-image: url(images/courtoom.jpg);
+    height: 1200px;
+    border-radius: 25px;
+    margin-top: 5%;
+}
+
+
+
+.contact-content {
+    display: flex;
+    background-image: url(images/neural.jpg);
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 75%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.images-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    
+}
+
+.contact-image {
+    width: 40%;
+    margin: 10px 0;
+    border-radius: 10px;
+}
