@@ -26,21 +26,27 @@
         </div>
     </header>
 
-    <main class="contact-content">
-        <div class="message">
-            <b>In this fast-paced world, swift and reliable communication is the difference between</b>
-        </div>
-    
-        <div class="images-container">
-            <img src="images/greaterSuccess.jpeg" alt="img3" class="contact-image">
-            <b>--- SUCCESS AND FAILURE!!</b>
-            <img src="images/failure.jpeg" alt="img3" class="contact-image">
-        </div>
-    
-        <div class="contact-info">
-            <b>Please contact me at +46 72 409 67 98 to get the right solution for you.</b>
-            <img src="images/OlleTangent.jpg" alt="img3" class="contact-image">
-        </div>
-    </main>
-    
+    <div class="contact-content">
+        <button id="contactButton" onclick="toggleContactForm()">Contact me to get the best solution for you!</button>
+        
+        <form id="contactForm" onsubmit="handleSubmit(event)" style="display: none; margin-top: 20px;">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
 
+        <div id="thankYouMessage" style="display: none; margin-top: 20px; font-size: 18px; color: #025012;">
+            Thank you for your message, I will get back to you as soon as possible!
+        </div>
+    </div>
+
+    <script src="form.js"></script>
+</body>
+</html>
